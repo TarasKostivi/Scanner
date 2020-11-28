@@ -13,7 +13,7 @@ public class Main {
         }else if(first >= 27 && first < 40){
             System.out.println("You can only serve by contracthjk");
         }else if (first >= 40 && first < 50){
-            System.out.println("You can only serve by contract but you have risk");
+            System.out.println("You can only serve by contract but you have rghisk");
         }else if (first >= 60 && first < 100){
             System.out.println("Most likely, you made a mistake and entered your age incorrectly.");
         }else {
