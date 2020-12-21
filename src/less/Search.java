@@ -1,3 +1,5 @@
+package less;
+
 import java.util.Scanner;
 
 public class Search {
