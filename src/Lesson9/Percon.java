@@ -40,10 +40,11 @@ public class Percon {
         this.email = email;
     }
 
-    public void validate(){
+    public void validate() throws UnderAgeEception, IncorrectEmailEception {
         if (this.age < 18){
-            throw new UnderAgeEception("fg", );
+            throw new UnderAgeEception("Неповнолітній");
+        }else if (this.email.contains("@")){
+            throw  new IncorrectEmailEception("False");
         }
     }
-
 }
