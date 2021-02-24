@@ -16,7 +16,7 @@ public class Stri {
 
         Thread thread = new Thread(sortedRunnable);
 
-        
+
 
         thread.start();
 
